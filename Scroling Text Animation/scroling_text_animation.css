@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: "Sofia", sans-serif;
+}
+
+section
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+
+section div
+{
+    position: relative;
+    width: 50%;
+    background: #003865;
+    overflow: hidden;
+}
+
+section div h2
+{
+    position: absolute;
+    white-space: nowrap;
+    font-size: 8em;
+    line-height: 100vh;
+    color: #fff;
+    animation: animate 30s linear infinite;
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: translateX(0);
+    }
+    100%
+    {
+        transform: translateX(-100%);
+    }
+}
+
+section div:nth-child(1)
+{
+    position: relative;
+    width: 50%;
+    /* background: #2C3333; */
+    background: url(img.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+section div:nth-child(1) h2
+{
+    -webkit-text-stroke: 0.1px;
+    -webkit-text-stroke-color: #fff;
+    -webkit-text-fill-color: transparent;
+    left: 100%;
+}
