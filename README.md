@@ -5,15 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>README - HTML & CSS Projects by Gopi</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 10px;
-      background-color: #f9f9f9;
-      color: #333;
-    }
     h1, h2 {
       color: #0073e6;
     }
@@ -35,7 +26,13 @@
     }
   </style>
 </head>
-<body>
+<body style = "font-family: Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: #f9f9f9;
+      color: #333;">
   <h1>HTML & CSS Projects by Gopi</h1>
 
   <h2>📄 About This Repository</h2>
