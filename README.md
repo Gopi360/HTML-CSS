@@ -19,17 +19,19 @@
   <h2>🚀 Projects Included</h2>
   <ul style = "margin: 10px 0;
       padding-left: 20px;">
-    <li><strong>Project 1:</strong> - A Backgrund Effect using HTML CSS.</li>
-    <li><strong>Project 2:</strong> - A Calculator only using HTML CSS.</li>
-    <li><strong>Project 3:</strong> - Icons looks like Glass Hover.</li>
-    <li><strong>Project 4:</strong> - A Hexagon Hover.</li>
-    <li><strong>Project 5:</strong> - A Loading page.</li>
-    <li><strong>Project 6:</strong> - A Login Page.</li>
-    <li><strong>Project 7:</strong> - A Polygon Hover.</li>
-    <li><strong>Project 8:</strong> - A Rain Animation into a picture.</li>
-    <li><strong>Project 9:</strong> - A Scroling text Animation.</li>
-    <li><strong>Project 10:</strong> - A Spotify Clone.</li>
-    <li><strong>Project 11:</strong> - A Wavy Circle.</li>
+    <li><strong>Project 1:</strong> - A Backgrund Effect using HTML & CSS.</li>
+    <li><strong>Project 2:</strong> - A Calculator only using HTML & CSS.</li>
+    <li><strong>Project 3:</strong> - Icons looks like Glass Hover using HTML & CSS.</li>
+    <li><strong>Project 4:</strong> - A Hexagon Hover using HTML & CSS.</li>
+    <li><strong>Project 5:</strong> - A Loading page using HTML & CSS.</li>
+    <li><strong>Project 6:</strong> - A Login Page using HTML & CSS.</li>
+    <li><strong>Project 7:</strong> - A Polygon Hover using HTML & CSS.</li>
+    <li><strong>Project 8:</strong> - A Rain Animation into a picture using HTML & CSS.</li>
+    <li><strong>Project 9:</strong> - A Scroling text Animation using HTML & CSS.</li>
+    <li><strong>Project 10:</strong> - A Spotify Clone using HTML, CSS, JS.</li>
+    <li><strong>Project 11:</strong> - A Wavy Circle using HTML & CSS.</li>
+    <li><strong>Project 12:</strong> - Snake Game using HTML, CSS, JS.</li>
+    <li><strong>Project 13:</strong> - NETFLIX LOGO using HTML & CSS.</li>
   </ul>
 
   <h2>🌱 Future Plans</h2>
