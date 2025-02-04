@@ -62,3 +62,21 @@ body{
     scale: 1;
     pointer-events: initial;
 }
+
+.menu li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    font-size: 1.75em;
+    color: rgb(136, 13, 243);
+    transition: 0.5s;
+    transform: rotate(calc(360deg / -8 * var(--i)));
+    border-radius: 50%;
+}
+
+.menu li.active a{
+    background: rgb(136, 13, 243);
+    color: #11efeb;
+}
