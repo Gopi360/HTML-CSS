@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #0bbfbc;
+}
+
+.menu{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu .toggle{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    color: rgb(136, 13, 243);
+    border: 2px solid rgb(136, 13, 243);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.menu .toggle.active{
+    transform: rotate(315deg);
+    background: rgb(136, 13, 243);
+    font-size: 3em;
+    color: #11efeb;
+}
+
+.menu li{
+    position: absolute;
+    left: 10px;
+    list-style: none;
+    transform-origin: 140px;
+    border: 2px solid rgb(136, 13, 243);
+    border-radius: 50%;
+    transform: rotate(calc(360deg / 8 * var(--i))) translateX(40px);
+    z-index: 10;
+    pointer-events: none;
+    scale: 0;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+}
+
+.menu.active li{
+    scale: 1;
+    pointer-events: initial;
+}
